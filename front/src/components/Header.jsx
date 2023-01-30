@@ -1,6 +1,7 @@
 import React from 'react'
 import '../assets/header.css'
 import { BiSearch } from 'react-icons/bi';
+//salam
 const Header = () => {
     return (
         <div className='Header'>
@@ -9,14 +10,14 @@ const Header = () => {
                     <div className="col-lg-2">
                         <img style={{ width: '70%' }} src="https://global-uploads.webflow.com/6241bcd9e666c1d615014606/6241bd08b22d0af074a9fb1b_Nft-Mint-Radar.png" alt="" />
                     </div>
-                    <div className="col-lg-8 header_center">
+                    <div className="col-lg-8 header_center ">
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Collectors</a>
                                 <ul className='header_Collectors'>
-                                    <li><br /><div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a> <p>7 items</p></div> <br />
-                                        <div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a> <p>7 items</p></div>  <br />
-                                        <div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a> <p>7 items</p> </div>  <br /></li>
+                                    <li><br /><div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a><p>7 items</p></div> <br />
+                                        <div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a><p>7 items</p></div>  <br />
+                                        <div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a><p>7 items</p> </div>  <br /></li>
                                     <li><br /><div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a> <p>7 items</p></div> <br />
                                         <div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a> <p>7 items</p></div>  <br />
                                         <div className='seid'> <img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/4a65a51a.png-70x70.png" alt="" /><a href="#">Web Development</a> <p>7 items</p> </div>  <br /></li>

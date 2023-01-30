@@ -1,0 +1,148 @@
+.Header {
+  align-items: center !important;
+  background-image: url(https://enefti.modeltheme.com/wp-content/uploads/2022/02/Main-slider_pattern.jpg?id=6678);
+  padding-top: 1rem;
+  padding-bottom: .6rem;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  
+}
+.header_center ul {
+  text-align: center;
+}
+
+.header_center li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  /* overflow: hidden; */
+  /* This does the trick for hiding the sub menu even if we use opacity for the sub-menu */
+}
+
+
+.header_center a {
+  text-decoration: none;
+  font-size: 19px;
+  transition: all .2s;
+  color: #fff;
+}
+
+.header_center li ul {
+  position: absolute;
+  top: 43px;
+  margin-top: 0;
+  padding: 5px 10px;
+  left: -50%;
+  width:  950px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity, transform .5s;
+}
+.header_center img{
+  border-radius: 50%;
+  width: 20%;
+  padding-top: 1rem;
+}
+
+.header_center li ul::before {
+  content: '';
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  top: -15px;
+  left: 10%;
+  margin-left: -10px;
+  
+}
+.header_center li ul li {
+  display: block;
+  background: #fff;
+  width: 100%;
+}
+.header_center .seid:hover {
+  background: aliceblue;
+}
+.seid{
+  padding: 10px;
+
+}
+.header_center li ul a {
+  color: #252525;
+  font-size: 18px;
+}
+.header_center ul li:hover>ul {
+  left: -40%;
+  transform: translateY(0);
+  opacity: 1;
+}
+.Header_right {
+  color: #fff;
+  margin-top: .8rem;
+  text-align: end;
+}
+.Header_right span{
+  font-size: 18px;
+  margin-left: 2rem;
+}
+.Header_search{
+  font-size: 28px;
+}
+.header_Collectors{
+  display: flex;
+}
+.header_Collectors a{
+  margin-left: 1rem;
+  color: black;
+  font-weight: bold;
+}
+.header_Collectors p{
+  margin-top: -25px;
+  color: #666;
+}
+@media screen and (max-width: 1023px) {
+
+  .header_center ul li {
+    display: block;
+    text-align: left;
+    background: linear-gradient(45deg, #8b19c3, #c42ff5);
+  }
+
+  .header_center li ul {
+    position: static;
+    opacity: 1;
+    transform: translate(0);
+    background: transparent;
+    width: 100%;
+  }
+
+  .header_center li ul::before {
+    display: none;
+  }
+
+  .header_center li ul li {
+    background: transparent;
+  }
+
+  .header_center a {
+    color: #fff;
+  }
+
+  .header_center ul {
+    margin-top: 70px;
+    display: none;
+  }
+
+  .header_center .hamburger-menu {
+    display: flex;
+  }
+
+}

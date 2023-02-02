@@ -45,7 +45,6 @@
   width:  950px;
   opacity: 0;
   transform: translateY(50px);
-  transition: opacity, transform .5s;
 }
 .header_center img{
   border-radius: 50%;
@@ -110,7 +109,13 @@
 }
 .Header_right {
   cursor: pointer;
+  font-size: 25px;
+  align-items: center;
 }
+.Header_right span{
+  font-size: 20px;
+}
+
 @media screen and (max-width: 1023px) {
 
   .header_center ul li {

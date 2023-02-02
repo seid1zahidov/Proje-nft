@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/header.css'
-import { BiSearch } from 'react-icons/bi';
+import Header_modeal_search from './Header_modeal_search'
 //salam
 const Header = () => {
     return (
@@ -34,8 +34,8 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="col-lg-2">
-                        <div className="Header_right">
-                            <BiSearch className='Header_search' />
+                        <div className="Header_right d-flex justify-content-end">
+                            <Header_modeal_search />
                             <span>Sign in</span>
                         </div>
                     </div>
